@@ -3,27 +3,36 @@ package no.hvl.dat100ptc.oppgave1;
 import no.hvl.dat100ptc.TODO;
 
 public class GPSPoint {
-
-	// TODO - objektvariable
+	
+	// Tid i sekunder
+	private int time;
+	
+	// Breddegrad
+	private double latitude;
+	
+	// Lengdegrad
+	private double longitude;
+	
+	// Høyde i meter
+	private double elevation;
 	
 	public GPSPoint(int time, double latitude, double longitude, double elevation) {
-
-		// TODO - konstruktur
-
-		throw new UnsupportedOperationException(TODO.construtor("GPSPoint"));
-		
+		this.time = time;
+		this.latitude = latitude;
+		this.longitude = longitude;
+		this.elevation = elevation;
 	}
 
 	// TODO - get/set metoder
 	public int getTime() {
 		
-		throw new UnsupportedOperationException(TODO.method());
+		return time;
 		
 	}
 
 	public void setTime(int time) {
 				
-		throw new UnsupportedOperationException(TODO.method());
+		this.time = time;
 		
 	}
 
