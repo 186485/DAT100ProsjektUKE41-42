@@ -64,7 +64,7 @@ public class ShowRoute extends EasyGraphics {
 
 	public void showRouteMap(int ybase) {
 		for(GPSpoint point : gpspoints) {
-			
+			d
 		}
 	}
 
